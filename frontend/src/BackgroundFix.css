@@ -1,0 +1,20 @@
+/* BackgroundFix.css - Theme-aware fallback canvas */
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html.light,
+body.light {
+  background-color: #f4f8ff;
+}
+
+html.dark,
+body.dark {
+  background-color: #081125;
+}
+
+.homepage-root {
+  background-color: transparent;
+}
