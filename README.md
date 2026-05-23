@@ -74,6 +74,14 @@ npm run dev
 
 Open the frontend at `http://localhost:5173` and the backend API at `http://localhost:5000` (default).
 
+## Live Demo
+
+The application is deployed on Render. You can access the live backend API at:
+
+- `https://collaborative-coding-platform-backend-h8dn.onrender.com` (API base: `.../api/v1`)
+
+If you deployed a frontend, point `VITE_API_URL` to the API base above.
+
 ## Required Environment Variables
 
 Create `backend/.env` with at least the following keys:
