@@ -1,5 +1,7 @@
 # CodeCollab — Collaborative Coding Platform
 
+**Live Demo:** https://collaborative-coding-platform-pt77.onrender.com
+
 CodeCollab is a full‑stack, real‑time collaborative coding platform that lets teams, learners, and interviewers co-edit code, chat, run code snippets, and get AI assistance in a single web application.
 
 ---
@@ -76,11 +78,11 @@ Open the frontend at `http://localhost:5173` and the backend API at `http://loca
 
 ## Live Demo
 
-The application is deployed on Render. You can access the live backend API at:
+The application is deployed on Render. You can visit the live site here:
 
-- `https://collaborative-coding-platform-backend-h8dn.onrender.com` (API base: `.../api/v1`)
+- `https://collaborative-coding-platform-pt77.onrender.com`
 
-If you deployed a frontend, point `VITE_API_URL` to the API base above.
+If the API is hosted on the same domain, use the API base: `https://collaborative-coding-platform-pt77.onrender.com/api/v1` (or set `VITE_API_URL` accordingly).
 
 ## Required Environment Variables
 
